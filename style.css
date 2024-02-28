@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #2d2d2d
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 161px;
+    z-index: 2;
+    position: relative;
+}
+
+nav div img {
+    width: 150px;
+}
+nav div a {
+    background-color: #e50914;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+}
+
+nav div a:hover {
+    background-color: #bb0c15;
+}
+
+#bg-image {
+    background-image: url(./assets/img/bg-netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: -100px;
+    z-index: 1;
+    padding: 280px 161px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: multiply;
+    background-color: #2d2d2db0;
+    color: #fff;
+}
+
+#bg-image h2,
+#zawqrt .wtqogh {
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+#bg-image h4 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+#bg-image p,
+#zawqrt .mpirht {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+#bg-image form,
+#zawqrt form {
+    display: flex;
+    position: relative;
+}
+
+.xvioui {
+    position: relative;
+}
+
+.xwqrcx {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #2d2d2d8c;
+    border: 1px solid #838282;
+    padding: 5px 165px 5px 25px;
+    border-radius: 5px;
+}
+
+.xwqrcx:focus-within {
+    box-shadow: #ffffff 0px 1px 4px, #ffffff 0px 0px 0px 3px;
+}
+
+.label-text {
+    position: absolute;
+    top: 11px;
+    left: 0;
+    color: #ffffffb3;
+    font-size: 15px;
+    font-weight: 500;
+    z-index: 1;
+    transition: all .3s ease
+}
+
+.input-text {
+    display: block;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    width: 130%;
+    background: none;
+    margin-top: 17px;
+    color: #fff;
+    font-weight: 500;
+    z-index: 2;
+    position: relative;
+}
+
+.input-text:focus ~ .label-text,
+.input-text:not(:placeholder-shown).input-text:not(:focus) ~ .label-text {
+    font-size: 12px;
+    top: 1px
+}
+
+#bg-image form button,
+#zawqrt .bxvert {
+    background-color: #e50914;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px 25px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+#bg-image form button:hover {
+    background-color: #bb0c15;
+}
+
+#zawqrt .bxvert:hover {
+    background-color: #bb0c15;
+}
+
+#bg-image form button .greater-arrow,
+#zawqrt .bxvert .greater-arrow {
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#xvioprt {
+    background-color: #000000;
+    margin-top: 8px;
+    padding: 60px 161px 80px 161px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#xvioprt .left-xvionrt {
+    width: 50%;
+}
+
+#xvioprt .left-xvionrt h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#xvioprt .left-xvionrt p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#xvioprt .right-xvislnrt {
+    width: 50%;
+    position: relative;
+}
+
+#xvioprt .right-xvislnrt .vortlkf {
+    position: absolute;
+    top: -30px;
+    left: 65px;
+    z-index: 1;
+}
+
+#xvioprt .right-xvislnrt .vortlkf video {
+    width: 365px;
+    height: 420px;
+}
+
+#xvioprt .right-xvislnrt img {
+    width: 500px;
+    z-index: 2;
+    position: relative;
+}
+
+#xdereht {
+    background-color: #000000;
+    padding: 60px 161px 80px 161px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+#xdereht .left-verrnet {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#xdereht .left-verrnet .heyrbet {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: #000000;
+    border: 2px solid #838282;
+    padding: 10px;
+    border-radius: 0.75rem;
+    top: -130px;
+    left: -35px;
+}
+
+#xdereht .left-verrnet .heyrbet .vrtkkf img {
+    width: 60px;
+}
+
+#xdereht .left-verrnet .heyrbet .xtwrye img {
+    width: 50px;
+}
+
+#xdereht .left-verrnet .heyrbet .dixrwe {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+#xdereht .left-verrnet .heyrbet .dixrwe h2 {
+    font-size: 1rem;
+}
+
+#xdereht .left-verrnet .heyrbet .dixrwe p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #0071eb;
+}
+
+#xdereht .left-verrnet .imgecvt {
+    width: 500px;
+    height: 400px;
+    margin-left: -70px;
+}
+
+#xdereht .right-vsdhsd {
+    width: 55%;
+    margin-left: -80px;
+    position: relative;
+}
+
+#xdereht .right-vsdhsd h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    width: 100%;
+}
+
+#xdereht .right-vsdhsd p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#xertwsd {
+    background: #000000;
+    padding: 60px 161px 80px 161px;
+    color: #fff;
+    margin-top: 8px;
+}
+
+#xertwsd div {
+    width: 45%;
+    margin-left: 63px;
+}
+
+#xertwsd div h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#xertwsd div p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#xwqasrt {
+    background: #000000;
+    padding: 60px 161px 80px 161px;
+    color: #fff;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#xwqasrt .left-xqwhgt {
+    width: 50%;
+}
+
+#xwqasrt .left-xqwhgt img {
+    width: 500px;
+}
+
+#xwqasrt .right-bnhfgt {
+    width: 50%;
+}
+
+#xwqasrt .right-bnhfgt h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#xwqasrt .right-bnhfgt p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#xotcgde {
+    background: #000000;
+    padding: 60px 161px 60px 161px;
+    color: #fff;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#xotcgde div ul {
+    list-style: none;
+}
+
+#xotcgde div ul li {
+    font-size: 0.85rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-right: 120px;
+}
+
+#xotcgde div ul li a {
+    text-decoration: underline;
+    color: #ffffffb3;
+}
+
+#xotcgde div ul li .xdewte {
+    border: 1px solid #838282;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    width: 85%;
+}
+
+#xotcgde div ul li .xdewte:focus-within {
+    box-shadow: rgb(255, 255, 255) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
+}
+
+#xotcgde div ul li .xdewte #sbxrtwq {
+    appearance: none;
+    font-size: 17px;
+    color: #fff;
+    background: transparent;
+    padding: 0 5px;
+    border: 0 solid transparent;
+    outline: none;
+    width: 100%;
+    padding: 7px 15px 7px 35px;
+}
+
+#xotcgde div ul li .xdewte div img {
+    width: 18px;
+    margin-top: 7px;
+}
+
+#xotcgde div ul li .xdewte div {
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+#xotcgde div ul li .xdewte .dxwqart {
+    position: absolute;
+    top: 7px;
+    left: 105px;
+    color: #fff;   
+}
+
+#zawqrt {
+    background: #000000;
+    padding: 60px 161px 60px 161px;
+    color: #fff;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pefdhxr {
+    margin: 13px 0 40px 0;
+    width: 100%;
+}
+
+.peyedm {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.pefdhxr #btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 25px 20px;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #2d2d2d;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pefdhet {
+    width: 100%;
+    padding: 20px;
+    background-color: #2d2d2d;
+    margin-top: 1px;
+    display: none;
+    animation: fade-in 0.5s ease forwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.pefdhet p {
+    font-size: 18px;
+}
+
+#icon {
+    transition: transform 0.3s ease;
+}
