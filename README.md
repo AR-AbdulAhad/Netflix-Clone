@@ -1,0 +1,1 @@
+This project is a complete clone of the Netflix website, built using HTML, CSS, and JavaScript. It aims to replicate the functionality and design of the original Netflix site while ensuring responsiveness across various devices.
